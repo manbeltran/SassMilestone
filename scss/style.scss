@@ -1,0 +1,50 @@
+@import "config";
+@import "results";
+@import "btnconfig";
+
+* {
+    font-family: $font-stack;
+    text-decoration-color: $primary-color;
+}
+// .content {
+//     width: 100vw;
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     overflow: hidden;
+//     background-color: grey;
+// }
+
+
+.grid {
+    margin: 50px 0px;
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+    grid-template-columns: repeat(3,auto);
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    font-size: 100px;
+    border-radius: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+}
+.resultMessage {
+    font-size: add(10) * 1px;
+    &:hover {
+        font-weight: bold;
+    }
+}
+

@@ -1,0 +1,16 @@
+@import "config";
+
+%btn {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: 1000;
+    &:hover {
+        transform: scale(.50);
+    }
+}
+
+.restart {
+    @extend %btn;
+    @include set-bg(lighten($primary-color, 30%));
+}

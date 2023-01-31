@@ -1,0 +1,16 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$yellow: #FFC300;
+$white: #FFFFFF;
+$black: #04111e;
+$grey: #808080;
+$lightblue: #add8e6;
+$light-color: $yellow;
+$primary-color: $white;
+$secondary-color: $black;
+$accent-color: $grey;
+$border-color: $lightblue;
+
+@function add($var1, $var2: 20) {
+    $var3 : $var1 + $var2;
+    @return $var3;
+}

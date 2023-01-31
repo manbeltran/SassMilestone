@@ -1,0 +1,52 @@
+.restart {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  font-weight: 1000;
+}
+.restart:hover {
+  transform: scale(0.5);
+}
+
+.restart {
+  background-color: white;
+  color: #04111e;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration-color: #FFFFFF;
+}
+
+.grid {
+  margin: 50px 0px;
+  display: grid;
+  height: fit-content;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 100px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  background-color: #04111e;
+  border-radius: 10px;
+}
+
+.resultMessage {
+  font-size: 30px;
+}
+.resultMessage:hover {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
